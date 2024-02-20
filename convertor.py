@@ -21,7 +21,7 @@ def encrypt(message):
             cipher += MORSE_CODE_DICT[letter] + ' '
         else:
           cipher += ' '
-          return cipher
+    return cipher
  
 def decrypt(message):
     message += ' '
