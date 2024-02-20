@@ -60,7 +60,7 @@ def main():
     result = encrypt(message.upper())
     print (result)
  
-    message = input("enter the text from the user: ")
+    message = input("enter the morse code from the user: ")
     result = decrypt(message)
     print (result)
 if __name__ == '__main__':
